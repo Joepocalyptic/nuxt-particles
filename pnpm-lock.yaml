@@ -4,6 +4,9 @@ dependencies:
   '@nuxt/kit':
     specifier: ^3.6.5
     version: 3.6.5(rollup@3.28.0)
+  defu:
+    specifier: ^6.1.2
+    version: 6.1.2
   tsparticles:
     specifier: ^2.12.0
     version: 2.12.0
@@ -39,9 +42,6 @@ devDependencies:
   changelogen:
     specifier: ^0.5.4
     version: 0.5.4
-  defu:
-    specifier: ^6.1.2
-    version: 6.1.2
   eslint:
     specifier: ^8.46.0
     version: 8.46.0

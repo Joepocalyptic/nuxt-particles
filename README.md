@@ -64,6 +64,7 @@ Example:
   <NuxtParticles
     id="tsparticles"
     :options="options"
+    @load="onLoad"
   ></NuxtParticles>
 </template>
 

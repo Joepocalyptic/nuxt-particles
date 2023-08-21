@@ -1,12 +1,3 @@
-<!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: My Module
-- Package name: my-module
-- Description: My new Nuxt module
--->
-
 # Nuxt Particles
 
 [![npm version][npm-version-src]][npm-version-href]
@@ -14,7 +5,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
+Run lightweight, heavily customizable particle simulations in your Nuxt project with tsParticles.
 
 - [📖 &nbsp;Documentation](https://nuxt-particles.joeypereira.dev)
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
@@ -22,7 +13,6 @@ My new Nuxt module for doing amazing things.
 
 ## Features
 
-<!-- Highlight some of the features your module provide here -->
 - Built for **Nuxt 3**
 - **Lazy loading** by default
 - Built-in full, slim, and basic bundles, or

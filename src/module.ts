@@ -22,7 +22,7 @@ export default defineNuxtModule<ModuleOptions>({
   setup (options, nuxt) {
     const resolver = createResolver(import.meta.url)
 
-    if(!options.lazy) {
+    if(!options.lazy && options.mode !== 'custom') {
       addPlugin(resolver.resolve('./runtime/plugins/particle-loader.client'))
     }
 

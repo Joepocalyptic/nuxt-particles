@@ -17,10 +17,18 @@
   </div>
 </template>
 
-<script setup>
-import { ref } from '#imports'
+<script setup lang="ts">
+import { ref, useRuntimeConfig } from '#imports'
+import {loadFull} from 'tsparticles'
+import {tsParticles} from 'tsparticles-engine'
+
+const { mode } = useRuntimeConfig().public.particles
 
 const show = ref(false)
+
+if(process.client && mode === 'custom') {
+  await loadFull(tsParticles)
+}
 
 const options = {
   fullScreen: {

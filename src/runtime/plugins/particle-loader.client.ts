@@ -8,9 +8,5 @@ export default defineNuxtPlugin(async (nuxtApp) => {
   const runtimeConfig = useRuntimeConfig()
   const { mode } = runtimeConfig.public.particles
 
-  if (mode === 'custom') {
-    return
-  }
-
   await loadParticles(tsParticles, mode)
 })

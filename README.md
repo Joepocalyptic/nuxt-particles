@@ -9,7 +9,7 @@ Run lightweight, heavily customizable particle simulations in your Nuxt project 
 
 - [📖 &nbsp;Documentation](https://nuxt-particles.joeypereira.dev)
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-- [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-particles?file=playground%2Fapp.vue)
+- [🏀 Online playground](https://stackblitz.com/github/Joepocalyptic/nuxt-particles?file=playground%2Fapp.vue)
 
 ## Features
 

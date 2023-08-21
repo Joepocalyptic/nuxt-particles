@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.1.2
+
+[compare changes](https://undefined/undefined/compare/v0.1.1...v0.1.2)
+
+### 🩹 Fixes
+
+- Update docs metadata (f6a32f9)
+
+### 🏡 Chore
+
+- Fix docs prerendering (16462be)
+- Add license (95f8b8d)
+
+### ❤️  Contributors
+
+- Joey Pereira <contact@joeypereira.dev>
+
 ## v0.1.1
 
 

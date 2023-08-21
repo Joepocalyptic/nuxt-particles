@@ -1,8 +1,9 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
+  // Defaults
   particles: {
     mode: 'full',
-    lazy: false
+    lazy: true
   },
   devtools: { enabled: true },
 })

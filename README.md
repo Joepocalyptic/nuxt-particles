@@ -49,6 +49,39 @@ That's it! You can now use the &lt;NuxtParticles&gt; component in your applicati
 Read the [documentation](https://nuxt-particles.joeypereira.dev) for more information, including
 configuration and optimization options.
 
+Example:
+
+```vue
+<template>
+  <NuxtParticles
+    id="tsparticles"
+    url="/path/to/particles.json"
+    @load="onLoad"
+  ></NuxtParticles>
+  
+  <!-- or -->
+  
+  <NuxtParticles
+    id="tsparticles"
+    :options="options"
+  ></NuxtParticles>
+</template>
+
+<script setup lang="ts">
+import type { Container } from 'tsparticles-engine'
+
+const options = {
+  // See https://particles.js.org/docs/interfaces/tsParticles_Engine.Options_Interfaces_IOptions.IOptions.html
+}
+
+const onLoad = (container: Container) => {
+  // Do something with the container
+  container.pause()
+  setTimeout(() => container.play(), 2000)
+}
+</script>
+```
+
 ## Development
 
 ```bash

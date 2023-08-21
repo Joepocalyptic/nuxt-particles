@@ -1,7 +1,7 @@
 <template>
   <div>
     <button @click="show = !show">
-      Toggle
+      Toggle second particles
     </button>
   </div>
   <div>

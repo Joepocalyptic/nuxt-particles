@@ -9,7 +9,10 @@ export interface ModuleOptions {
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: 'nuxt-particles',
-    configKey: 'particles'
+    configKey: 'particles',
+    compatibility: {
+      nuxt: "^3.0.0"
+    }
   },
   // Default configuration options of the Nuxt module
   defaults: {

@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import {defineProps, defineEmits, onMounted, ref, onUnmounted} from 'vue'
+import { onMounted, ref, onUnmounted } from 'vue'
 import { tsParticles } from 'tsparticles-engine'
 import {useRuntimeConfig, useState} from '#app'
 import type {

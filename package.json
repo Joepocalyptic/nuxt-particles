@@ -12,6 +12,21 @@
       "require": "./dist/module.cjs"
     }
   },
+  "keywords": [
+    "nuxt",
+    "particles",
+    "tsParticles",
+    "particles.js",
+    "particlesjs",
+    "particles-js",
+    "nuxt particles",
+    "nuxt-particles",
+    "nuxt-module",
+    "nuxt3",
+    "confetti",
+    "fireworks",
+    "snow"
+  ],
   "main": "./dist/module.cjs",
   "types": "./dist/types.d.ts",
   "files": [

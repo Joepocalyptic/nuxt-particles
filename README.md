@@ -47,7 +47,8 @@ export default defineNuxtConfig({
 That's it! You can now use the &lt;NuxtParticles&gt; component in your application! ✨
 
 Read the [documentation](https://nuxt-particles.joeypereira.dev) for more information, including
-configuration and optimization options.
+configuration and optimization options. Documentation on how to configure the particles themselves
+is available on [tsparticles's website](https://particles.js.org/).
 
 Example:
 

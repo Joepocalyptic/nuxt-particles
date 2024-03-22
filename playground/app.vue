@@ -19,8 +19,8 @@
 
 <script setup lang="ts">
 import { ref, useRuntimeConfig } from '#imports'
-import {loadFull} from 'tsparticles'
-import {tsParticles} from 'tsparticles-engine'
+import { loadFull } from 'tsparticles'
+import { tsParticles } from '@tsparticles/engine'
 
 const { mode } = useRuntimeConfig().public.particles
 

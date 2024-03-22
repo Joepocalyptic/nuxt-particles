@@ -4,13 +4,13 @@
 
 <script setup lang="ts">
 import { onMounted, ref, onUnmounted } from 'vue'
-import { tsParticles } from 'tsparticles-engine'
-import {useRuntimeConfig, useState} from '#app'
+import { tsParticles } from '@tsparticles/engine'
+import { useRuntimeConfig, useState } from '#app'
 import type {
   ISourceOptions as ParticlesOptions,
   Container as ParticlesContainer
-} from 'tsparticles-engine'
-import {loadParticles} from '../lib/loaders'
+} from '@tsparticles/engine'
+import { loadParticles } from '../lib/loaders'
 
 const particlesLoaded = useState('__nuxt_particles_loaded', () => false)
 const container = ref<ParticlesContainer | undefined>(undefined)

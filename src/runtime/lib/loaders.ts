@@ -1,4 +1,4 @@
-import type { Engine } from 'tsparticles-engine'
+import type { Engine } from '@tsparticles/engine'
 
 export const loaderFull = async (engine: Engine) => {
   const { loadFull } = await import('tsparticles')
@@ -6,12 +6,12 @@ export const loaderFull = async (engine: Engine) => {
 }
 
 export const loaderSlim = async (engine: Engine) => {
-  const { loadSlim } = await import('tsparticles-slim')
+  const { loadSlim } = await import('@tsparticles/slim')
   await loadSlim(engine)
 }
 
 export const loaderBasic = async (engine: Engine) => {
-  const { loadBasic } = await import('tsparticles-basic')
+  const { loadBasic } = await import('@tsparticles/basic')
   await loadBasic(engine)
 }
 

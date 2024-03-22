@@ -1,5 +1,5 @@
 import {defineNuxtModule, addPlugin, createResolver, addComponent} from '@nuxt/kit'
-import defu from "defu";
+import defu from 'defu'
 
 export interface ModuleOptions {
   mode: 'full' | 'slim' | 'basic' | 'custom'

@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.2.0
+
+[compare changes](https://github.com/Joepocalyptic/nuxt-particles/compare/v0.1.5...v0.2.0)
+
+### 🚀 Enhancements
+
+- Use tsparticles v3 ([6286ded](https://github.com/Joepocalyptic/nuxt-particles/commit/6286ded))
+
+### 📖 Documentation
+
+- Fix package specifier ([239b091](https://github.com/Joepocalyptic/nuxt-particles/commit/239b091))
+
+### 🏡 Chore
+
+- Update README.md ([1be6b87](https://github.com/Joepocalyptic/nuxt-particles/commit/1be6b87))
+
+### ❤️ Contributors
+
+- Joey Pereira ([@Joepocalyptic](http://github.com/Joepocalyptic))
+
 ## v0.1.5
 
 [compare changes](https://undefined/undefined/compare/v0.1.4...v0.1.5)

@@ -1,6 +1,6 @@
 {
   "name": "nuxt-particles",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Run lightweight, heavily customizable particle simulations in your Nuxt project with tsParticles.",
   "repository": "Joepocalyptic/nuxt-particles",
   "license": "MIT",

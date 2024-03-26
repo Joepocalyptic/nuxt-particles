@@ -26,7 +26,7 @@ const { mode } = useRuntimeConfig().public.particles
 
 const show = ref(false)
 
-if(process.client && mode === 'custom') {
+if(import.meta.client && mode === 'custom') {
   await loadFull(tsParticles)
 }
 

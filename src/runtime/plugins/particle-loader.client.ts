@@ -3,7 +3,7 @@ import { loadParticles } from '../lib/loaders'
 import { tsParticles} from 'tsparticles-engine'
 
 export default defineNuxtPlugin(async (nuxtApp) => {
-  if(process.server) { return }
+  if(import.meta.server) { return }
 
   const runtimeConfig = useRuntimeConfig()
   const { mode } = runtimeConfig.public.particles

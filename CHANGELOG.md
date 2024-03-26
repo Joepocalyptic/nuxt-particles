@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v0.3.0
+
+[compare changes](https://github.com/Joepocalyptic/nuxt-particles/compare/v0.2.0...v0.3.0)
+
+### 🩹 Fixes
+
+- Opt in to `import.meta.*` properties ([5e07c8a](https://github.com/Joepocalyptic/nuxt-particles/commit/5e07c8a))
+- Use proper import ([6a7f898](https://github.com/Joepocalyptic/nuxt-particles/commit/6a7f898))
+
+### 🏡 Chore
+
+- Require Nuxt >= 3.7.0 ([7ab3d1a](https://github.com/Joepocalyptic/nuxt-particles/commit/7ab3d1a))
+
+### ❤️ Contributors
+
+- Joey Pereira ([@Joepocalyptic](http://github.com/Joepocalyptic))
+- Daniel Roe ([@danielroe](http://github.com/danielroe))
+
 ## v0.2.0
 
 [compare changes](https://github.com/Joepocalyptic/nuxt-particles/compare/v0.1.5...v0.2.0)

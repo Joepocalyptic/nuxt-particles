@@ -11,7 +11,7 @@ export default defineNuxtModule<ModuleOptions>({
     name: 'nuxt-particles',
     configKey: 'particles',
     compatibility: {
-      nuxt: "^3.0.0"
+      nuxt: "^3.7.0"
     }
   },
   // Default configuration options of the Nuxt module

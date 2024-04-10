@@ -24,14 +24,7 @@ Run lightweight, heavily customizable particle simulations in your Nuxt project 
 1. Add the `nuxt-particles` dependency to your project
 
 ```bash
-# Using pnpm
-pnpm add -D nuxt-particles
-
-# Using yarn
-yarn add --dev nuxt-particles
-
-# Using npm
-npm install --save-dev nuxt-particles
+npx nuxi@latest module add particles
 ```
 
 2. Add `nuxt-particles` to the `modules` section of `nuxt.config.ts`

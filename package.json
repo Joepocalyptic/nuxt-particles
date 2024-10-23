@@ -43,20 +43,20 @@
   "dependencies": {
     "@nuxt/kit": "^3.11.1",
     "defu": "^6.1.4",
-    "tsparticles": "^3.3.0",
-    "@tsparticles/basic": "^3.3.0",
-    "@tsparticles/engine": "^3.3.0",
-    "@tsparticles/slim": "^3.3.0"
+    "tsparticles": "^3.5.0",
+    "@tsparticles/basic": "^3.5.0",
+    "@tsparticles/engine": "^3.5.0",
+    "@tsparticles/slim": "^3.5.0"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxt/eslint-config": "^0.2.0",
-    "@nuxt/module-builder": "^0.5.5",
+    "@nuxt/eslint-config": "^0.6.0",
+    "@nuxt/module-builder": "^0.8.4",
     "@nuxt/schema": "^3.11.1",
     "@nuxt/test-utils": "^3.12.0",
-    "@types/node": "^18.18.4",
-    "changelogen": "^0.5.5",
-    "eslint": "^8.57.0",
+    "@types/node": "^18.19.59",
+    "changelogen": "^0.5.7",
+    "eslint": "^8.57.1",
     "nuxt": "^3.11.1",
     "vitest": "^0.34.6"
   }

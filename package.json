@@ -44,7 +44,7 @@
     "@nuxt/kit": "^3.11.1",
     "defu": "^6.1.4",
     "tsparticles": "^3.3.0",
-    "@tsparticles/basic": "^3.3.0",
+    "@tsparticles/basic": "^4.5.2",
     "@tsparticles/engine": "^3.3.0",
     "@tsparticles/slim": "^3.3.0"
   },
